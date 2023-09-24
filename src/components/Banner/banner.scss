@@ -1,0 +1,41 @@
+.Banner-section {
+  display: flex;
+  // flex: 1,
+  justify-content: space-between;
+  background-image: linear-gradient(#1f283d, #0b0f17);
+  height: calc(100vh - 100px);
+  color: white;
+  padding: 44px 110px;
+  .heading-side-banner {
+    width: 100%;
+    max-width: 60%;
+    .main-heading {
+      color: white;
+      font-size: 146px;
+      line-height: 146px;
+    }
+  }
+  .right-side-banner {
+    display: flex;
+    flex: 1;
+    gap: 24px;
+    .pointsContainer {
+      display: flex;
+      flex-direction: column;
+      // marginTop: 100,
+      width: 50%;
+      padding: 45px 0px;
+    }
+    .img-box {
+      border-radius: 161px;
+      width: 50%;
+      overflow: hidden;
+      box-shadow: 0 13px 15px -6px #add8e699;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

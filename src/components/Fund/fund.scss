@@ -1,0 +1,78 @@
+.fundContainer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background: #0b0f17;
+  height: 100%;
+  color: white;
+  padding: 44px 110px;
+  .funding-box {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+    height: 100%;
+    gap: 100px;
+    .heading-box {
+      width: 30%;
+      .Step_heading1 {
+        display: block;
+      }
+      .Step_heading2 {
+        display: block;
+      }
+      .Step_heading3 {
+        font-size: 100px;
+        line-height: 104px;
+        display: block;
+      }
+    }
+    .heading {
+      font-size: 80px;
+      font-weight: bold;
+      line-height: 90px;
+      white-space: break-word;
+      letter-spacing: -0.4;
+    }
+    .fundPoints-container {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      width: 40%;
+      .fund-points-box {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 32px;
+        .icon-box {
+          width: 55px;
+          height: 55px;
+          overflow: hidden;
+          border-radius: 100%;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .title-text {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+    }
+    .img-container {
+      width: 30%;
+      height: 100%;
+      overflow: hidden;
+      border-radius: 161px;
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
